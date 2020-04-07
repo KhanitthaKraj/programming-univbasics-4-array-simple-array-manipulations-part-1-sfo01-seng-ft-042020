@@ -8,10 +8,11 @@ def using_unshift(array, string)
   array.unshift(string)
 end
 
-# 
+# removing the last element from the array with pop method & return that element
 def using_pop(array)
   array.pop()
 end
+
 
 def pop_with_args(array)
   array.pop(2)
