@@ -1,13 +1,14 @@
-# add string to the end of the array using the push method
+# adding string to the end of the array using the push method
 def using_push(array, string)
   array.push(string)
 end
 
-# add string to the front of the array using the unshift method
+# adding string to the front of the array using the unshift method
 def using_unshift(array, string)
   array.unshift(string)
 end
 
+# 
 def using_pop(array)
   array.pop()
 end
