@@ -2,26 +2,15 @@ def using_push(array, string)
   array.push(string)
 end
 
-def using_unshift()
-  
+def using_unshift(array, string)
+  array.unshift(string)
+end
+
+def using_pop(array)
+  array.pop()
 end
 
 
-describe "using_unshift" do 
-  before(:each) do 
-    bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-    @new_neighborhood = "Staten Island"
-    @updated_array = using_unshift(bouroughs_in_nyc, @new_neighborhood)
-  end
-  
-  it "takes in two arguments, an array and a string and adds that string to the front of the array using the unshift method" do
-    expect(@updated_array.first).to eq(@new_neighborhood)
-  end
-
-  it "increases the length of the array" do 
-    expect(@updated_array.size).to eq(5)
-  end
-end
 
 describe "using_pop" do
   before(:each) do 
