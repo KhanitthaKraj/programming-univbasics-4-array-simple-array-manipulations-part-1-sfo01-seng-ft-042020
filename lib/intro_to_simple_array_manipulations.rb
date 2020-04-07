@@ -18,11 +18,12 @@ def pop_with_args(array)
   array.pop(2)
 end
 
-# with shift method: 
+# with shift method: removing the first element in an array & return it
 def using_shift(array)
   array.shift
 end
 
+# with shift method: 
 def shift_with_args(array)
   array.shift(2)
 end
