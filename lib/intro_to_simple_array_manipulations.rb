@@ -1,23 +1,24 @@
-# adding string to the end of the array using the push method
+# with push method: adding string to the end of the array
 def using_push(array, string)
   array.push(string)
 end
 
-# adding string to the front of the array using the unshift method
+# with unshift method: adding string to the front of the array
 def using_unshift(array, string)
   array.unshift(string)
 end
 
-# removing the last element from the array with pop method & return that element
+# with pop method: removing the last element from the array & return that element
 def using_pop(array)
   array.pop()
 end
 
-# removing the last two element in an array with pop method & return them
+# with pop method: removing the last two element in an array & return them
 def pop_with_args(array)
   array.pop(2)
 end
 
+# with shift method: 
 def using_shift(array)
   array.shift
 end
