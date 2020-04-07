@@ -13,12 +13,12 @@ def using_pop(array)
   array.pop()
 end
 
-# with pop method: removing the last two element in an array & return them
+# with pop method: removing the last 2 elements from the array & return them
 def pop_with_args(array)
   array.pop(2)
 end
 
-# with shift method: removing the first element in an array & return it
+# with shift method: removing the first element in the array & return it
 def using_shift(array)
   array.shift
 end
