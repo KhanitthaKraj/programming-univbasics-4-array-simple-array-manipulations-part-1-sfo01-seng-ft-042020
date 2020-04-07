@@ -13,7 +13,7 @@ def using_pop(array)
   array.pop()
 end
 
-
+# removing the last two element in an array with pop method & return them
 def pop_with_args(array)
   array.pop(2)
 end
